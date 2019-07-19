@@ -8,7 +8,7 @@ name = gets
 
 ret = Net::HTTP::Post.new(url)
 
-ret["Authorization"] = "Bearer sQMTP7GxYE470Xqvwi1zJ7WTo0QJbyLc0tEWzMIZjfk"
+ret["Authorization"] = "Bearer <トークン>"
 
 ret.set_form_data({'message' => name.to_s})
 
